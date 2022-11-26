@@ -1,5 +1,6 @@
 import React from 'react';
 import BookCard from './BookCard';
+import Stack from 'react-bootstrap/Stack';
 
 class Library extends React.Component {
     constructor(props) {
@@ -38,7 +39,9 @@ class Library extends React.Component {
         return (
             <div>
                 <h2>Library Component</h2>
-                {this.renderCatalog()}
+                <Stack gap={3}>
+                    {this.renderCatalog()}
+                </Stack>
             </div>
         );
     }

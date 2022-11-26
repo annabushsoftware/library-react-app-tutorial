@@ -1,8 +1,16 @@
+import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+
 function BookCard(props) {
     return (
-        <div>
-            <h3>{props.title}</h3>
-        </div>
+        <Container>
+            <Card
+                body
+                bg="primary"
+                text="dark">
+                {props.title}
+            </Card>
+        </Container>
     )
 }
 

@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+$theme-colors: (
+  "primary": rgb(250, 240, 200),
+  "info": green,
+  "danger": red
+);
+
+@import "~bootstrap/scss/bootstrap";
