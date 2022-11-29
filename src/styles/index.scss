@@ -13,9 +13,7 @@ code {
 }
 
 $theme-colors: (
-  "primary": rgb(250, 240, 200),
-  "info": green,
-  "danger": red
+  "primary": rgb(250, 240, 200)
 );
 
 @import "~bootstrap/scss/bootstrap";
